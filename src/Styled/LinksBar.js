@@ -12,22 +12,27 @@ const LinkMe = styled.div`
   top: 5vh;
   box-sizing: border-box;
   background: white;
+  opacity: 0.8;
   margin-right: 2px;
 `;
 
 const LinkContainer = styled.div`
-  height: 100%;
+  height: 3vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   & a {
     color: grey;
     font-size: 15px;
     text-decoration: none;
     &:hover {
       color: tomato;
-      transition: 0.4s;
+      transition: all 0.1s ease-in-out;
+      transform: scale(1.1);
+      font-size: 17px;
     }
   }
   &.strikeMe {

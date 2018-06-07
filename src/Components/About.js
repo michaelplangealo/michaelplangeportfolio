@@ -54,6 +54,17 @@ const AboutContent = styled.article`
   width: 80%;
   color: grey;
 `;
+const LittleQuip = styled.div`
+  letter-spacing: 0.2px;
+  text-rendering: optimizeLegibility;
+  line-height: 36px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  width: 80%;
+  color: grey;
+`;
 const NotCute = styled.div`
   letter-spacing: 0.5px;
   text-rendering: optimizeLegibility;
@@ -137,6 +148,9 @@ export default class About extends Component {
               Hi there. I'm Michael Plange, a Front-End Web Developer based out
               of Dallas, Texas. <Peekaboo>yeehaw</Peekaboo>
             </Intro>
+            <LittleQuip>
+              Life is a long learning lesson. I try to laugh along the way.
+            </LittleQuip>
             <AboutContent>
               I graduated from the University of Texas at Arlington in 2014 with
               a Bachelor of Science in Psychology. I participated in the
@@ -152,10 +166,12 @@ export default class About extends Component {
               elsewhere. I felt that the best field for me to work in would be a
               field in which I could explore creative possibilities while
               solving a problem, imbued with my own personality. After a bit of
-              much needed soul-searching, I found myself in the field of Web
-              Development, scratching my itch of being both creative and
-              practical.
+              much needed soul-searching, I applied to DevMountain's Immersive
+              Web Development program. And with that, I found myself in the
+              field of Web Development, scratching my itch of being both
+              creative and practical.
             </AboutContent>
+
             <NotCute>
               Art and design, and some animating, these are a few of my favorite
               things <span role="img">🎤🎶</span>
